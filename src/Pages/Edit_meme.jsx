@@ -23,7 +23,7 @@ const Edit_meme = () => {
               <div style={{ boxShadow: "0 0 2px black" }} className="h-full border-0 p-2 shadow-inner sm:border-gray-200 border-opacity-0 rounded-md overflow-hidden">
                 <span ref={memeRef} className='flex w-full border-b-2 pb-3 flex-col'>
                   <img className="lg:h-48 md:h-36 p-1 w-full object-contain" src={params.get("url")} alt="img" />
-                  <p className='relative flex text-center'>
+                  <p className='w-48 relative flex justify-center'>
                     {
                       Array(count).fill(0).map((_, index) => (<Text key={index} />))
                     }
