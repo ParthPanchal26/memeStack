@@ -15,7 +15,7 @@ const MemeCard = (props) => {
                                 <div className="p-6">
                                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3 text-center">{props.title}</h1>
                                     <div className="flex items-center flex-wrap justify-center">
-                                        <button onClick={(e) => navigate(`/edit?url=${props.img}`)} className="text-indigo-700 text-lg border-2 rounded-md border-slate-950 px-5 py-2 inline-flex items-center md:mb-2 lg:mb-0">Edit
+                                        <button onClick={(e) => navigate(`/memeStack/edit?url=${props.img}`)} className="text-indigo-700 text-lg border-2 rounded-md border-slate-950 px-5 py-2 inline-flex items-center md:mb-2 lg:mb-0">Edit
                                         </button>
                                     </div>
                                 </div>

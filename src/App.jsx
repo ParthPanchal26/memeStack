@@ -8,8 +8,8 @@ const App = () => {
     <div>
       <h2 className='w-full text-center py-3 border-b-4 border-t-4 mt-1'>memeStack | Make Your Meme</h2>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/edit/' element={<Edit_meme />} />
+        <Route path='/memeStack/' element={<Home />} />
+        <Route path='/memeStack/edit/' element={<Edit_meme />} />
       </Routes>
     </div>
   )
